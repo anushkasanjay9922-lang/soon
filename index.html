@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Computer Engineering, cloud technology and innovation.">
+    <title>CE Portal | Learn. Create. Innovate.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-icon">&lt;/&gt;</span>
+            CE<span class="logo-light">Portal</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <a href="#about" class="nav-badge">🎓 Computer Engineering</a>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="eyebrow">
+                    <span class="pulse"></span>
+                    CLOUD COMPUTING PROJECT
+                </div>
+
+                <h1>
+                    Welcome to<br>
+                    <span class="gradient-text">Computer Engineering.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Explore technology, discover new possibilities,
+                    and turn your ideas into reality.
+                    Your journey towards innovation starts here.
+                </p>
+
+                <div class="student-card">
+                    <div class="student-row">
+                        <span class="detail-icon purple">♙</span>
+                        <span class="detail-label">Student Name</span>
+                        <strong>Anushka Shinde</strong>
+                    </div>
+
+                    <div class="student-row">
+                        <span class="detail-icon blue">⌘</span>
+                        <span class="detail-label">Department</span>
+                        <strong>Computer Engineering</strong>
+                    </div>
+
+                    <div class="student-row">
+                        <span class="detail-icon green">☁</span>
+                        <span class="detail-label">Platform</span>
+                        <strong>Cloud Web Application</strong>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <button class="primary-btn" id="welcomeBtn">
+                        <span>✦</span> Get Welcome Message <span>→</span>
+                    </button>
+                    <a href="#features" class="secondary-btn">
+                        Explore More ↓
+                    </a>
+                </div>
+
+                <div class="welcome-message" id="message"
+                     role="status" aria-live="polite" hidden></div>
+            </div>
+
+            <div class="hero-art" aria-label="Cloud technology illustration">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="cloud cloud-back">☁</div>
+
+                <div class="code-window">
+                    <div class="window-bar">
+                        <span></span><span></span><span></span>
+                        <small>my-first-web-app.html</small>
+                    </div>
+
+                    <div class="code-content">
+                        <p><span class="code-purple">&lt;html&gt;</span></p>
+                        <p>　<span class="code-blue">&lt;h1&gt;</span></p>
+                        <h2>Code. Learn. Build.</h2>
+                        <p>　<span class="code-blue">&lt;/h1&gt;</span></p>
+                        <p><span class="code-purple">&lt;/html&gt;</span></p>
+                        <div class="code-cursor"></div>
+                    </div>
+                    <div class="window-base"></div>
+                </div>
+
+                <div class="float-card cloud-card">
+                    <span class="float-icon">☁</span>
+                    <span><strong>Cloud Ready</strong><small>Access anywhere</small></span>
+                </div>
+
+                <div class="float-card innovation-card">
+                    <span class="float-icon">✦</span>
+                    <span><strong>Stay Curious</strong><small>Keep innovating</small></span>
+                </div>
+
+                <div class="sparkle sparkle-one">✦</div>
+                <div class="sparkle sparkle-two">✧</div>
+            </div>
+        </section>
+
+        <section class="features-section" id="features">
+            <div class="section-heading">
+                <span class="section-tag">DISCOVER YOUR POTENTIAL</span>
+                <h2>Why <span class="gradient-text">Computer Engineering?</span></h2>
+                <p>Learn the skills to shape tomorrow's technology.</p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <div class="feature-icon icon-blue">⌨</div>
+                    <h3>Build Projects</h3>
+                    <p>Transform your ideas into useful websites and real-world applications.</p>
+                    <a href="#about">Explore possibilities ↗</a>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon icon-purple">☁</div>
+                    <h3>Cloud Technology</h3>
+                    <p>Discover online hosting, cloud platforms, and modern digital services.</p>
+                    <a href="#about">Explore possibilities ↗</a>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon icon-green">♧</div>
+                    <h3>Grow Your Skills</h3>
+                    <p>Develop your technical knowledge through practice and creativity.</p>
+                    <a href="#about">Explore possibilities ↗</a>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon icon-orange">🚀</div>
+                    <h3>Future Ready</h3>
+                    <p>Prepare for new opportunities in software and emerging technologies.</p>
+                    <a href="#about">Explore possibilities ↗</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="about-symbol">{"</>"}</div>
+            <div>
+                <span class="section-tag">ABOUT THIS PROJECT</span>
+                <h2>Small Project. <span class="gradient-text">Big Possibilities.</span></h2>
+                <p>
+                    This web application demonstrates how HTML, CSS, and JavaScript
+                    work together to create an interactive website that can be
+                    deployed on a cloud hosting platform.
+                </p>
+            </div>
+            <a href="#contact" class="primary-btn about-btn">Let's Connect →</a>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <a href="#home" class="logo footer-logo">
+            <span class="logo-icon">&lt;/&gt;</span>
+            CE<span class="logo-light">Portal</span>
+        </a>
+
+        <p>Created for MSBTE Cloud Computing Practical No. 5</p>
+        <p class="copyright">© <span id="year">2026</span> Computer Engineering Portal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
